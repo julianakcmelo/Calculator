@@ -33,27 +33,38 @@ let result
 switch(option) {
   case 1:
     result = sum(number1, number2)
-    alert(`The sum of the two number is: ${result}`)
 
-    if(result % 2 == 0) alert(`The sum of the two numbers is even.`)
-    else alert(`The sum of the two numbers is odd.`)
+    if(result % 2 == 0) alert(`The sum of ${number1} + ${number2} = ${result} and ${result} is even.`)
+    else alert(`The sum of ${number1} + ${number2} is ${result} and ${result} is odd.`)
 
     break
   case 2:
     result = subtraction(number1, number2)
-    alert(`The subtraction of the two number is: ${result}`)
+
+    if(result % 2 == 0) alert(`The subtraction of ${number1} - ${number2} = ${result} and ${result} is even.`)
+    else alert(`The subtraction of ${number1} - ${number2} = ${result} and ${result} is odd.`)
+
     break
   case 3:
     result = multiplication(number1, number2)
-    alert(`The multiplication of the two number is: ${result}`)
+
+    if(result % 2 == 0) alert(`The multiplication of ${number1} * ${number2} = ${result} and ${result} is even.`)
+    else alert(`The multiplication of ${number1} * ${number2} = ${result} and ${result} is odd.`)
+
     break
   case 4:
     result = division(number1, number2)
-    alert(`The division of the two number is: ${result}`)
+
+    if(result % 2 == 0) alert(`The division of ${number1} / ${number2} = ${result} and ${result} is even.`)
+    else alert(`The division of ${number1} / ${number2} = ${result} and ${result} is odd.`)
+  
     break
   case 5:
     result = rest(number1, number2)
-    alert(`The rest of division of the two number is: ${result}`)
+
+    if(result % 2 == 0) alert(`The rest of division of ${number1} % ${number2} = ${result} and ${result} is even.`)
+    else alert(`The rest of division of ${number1} % ${number2} = ${result} and ${result} is odd.`)
+
     break
   default:
     alert("Invalid option!")
