@@ -14,7 +14,7 @@
 
 ## :computer: Project
 
-This project concerns a calculator that performs the operations of addition, subtraction, division, multiplication, remainder of the division of two numbers. It also checks whether the numbers are the same or different.
+This project concerns a calculator that performs the operations of addition, subtraction, division, multiplication, remainder of the division of two numbers. It also informs whether the result of the desired operation is odd or even and also checks whether the numbers initially entered are the same or different.
 
 </div>
 
